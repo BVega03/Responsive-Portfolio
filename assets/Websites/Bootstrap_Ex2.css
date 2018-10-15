@@ -1,0 +1,34 @@
+b {
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    font-family: "Georgia", "Times New Roman", 
+        Times, serif;
+    font-size: 18px;
+    line-height: 150%;
+}
+
+p {
+    background-color: blue;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 24px;
+    margin-left: -10px;
+    margin-right: -10px;
+    padding-right: 75px;
+    padding-left: 75px;
+}
+
+.btn-group {
+    float:left;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin: auto 0;
+}
+
+.form-group {
+    float: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin: 0;
+}
+

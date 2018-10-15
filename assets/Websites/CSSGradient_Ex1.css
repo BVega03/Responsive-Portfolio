@@ -1,0 +1,10 @@
+body {
+    background-image: linear-gradient(to bottom left, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+}
+ul1:hover {
+    background-color: red;
+}
+
+ul {
+    float: right;
+}

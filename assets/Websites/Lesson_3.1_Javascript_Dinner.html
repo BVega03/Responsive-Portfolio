@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Data types, user input, conditional logic</title>
+</head>
+
+<body>
+
+<script type="text/javascript">
+
+// ask the user if they want steak
+// have one option if they choose steak, and another option if they choose no steak
+// ask the user what year they were born
+// tell them whether they can have sake or not!
+
+var eatSteak = confirm("do you eat steak?");
+
+if(eatSteak) {
+    alert("Here's a Steak Sandwhich");
+    document.write("Here's a Steak Sandwich!")
+} else {
+    alert("Here's a Tofu Stir-Fry!");
+    document.write("Here's a Tofu Stir-Fry!");
+}
+
+var age = prompt("how old are you?");
+ if(age>20) {
+     alert("Sake Bomb Coming up!");
+ } 
+ else if (age<20){
+     alert("NO Sake for you!")
+ }
+ 
+ else {
+     alert("Go home")
+}
+
+</script>
+
+</body>
+
+</html>
